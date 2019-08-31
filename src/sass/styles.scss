@@ -2,3 +2,12 @@
    Import partials below
 */
 @import './normalize';
+@import '../sass/helpers/fonts.scss';
+@import '../sass/helpers/variables.scss';
+@import '../sass/components/banner.scss';
+@import './components/container.scss';
+@import './components/site_logo.scss';
+@import './components/text_company.scss';
+@import './components/wrapper.scss';
+@import './components/media.scss';
+
