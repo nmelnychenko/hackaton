@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 75px;
+}
+
+.button {
+    --h: 50px;
+    height: var(--h);
+    line-height: var(--h);
+    width: 264px;
+    text-transform: uppercase;
+    background-color: $button-color;
+    color: $main-white;
+    border: none;
+    font-size: 12px;
+    font-family: 'Acrom';
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 12px 12px 70px 5px $button-color;
+
+}
