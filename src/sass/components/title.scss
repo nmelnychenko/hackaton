@@ -1,13 +1,21 @@
 .title {
   font-size: 20px;
-  font-family: "Acrom";
-  color: rgb(255, 255, 255);
+  font-family: Acrom, sans-serif;
+  color: $main-white;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 3;
-  text-align: left;
-  position: absolute;
-  left: 59.937px;
-  top: 1323.938px;
-  z-index: 38;
+
+
+  @media (min-width: 768px) {
+    font-size: 36px;
+
+    &--md-ml60 {
+      margin-left: 60px;
+    }
+
+    &--md-mb94px {
+      margin-bottom: 64px;
+    }
+  }
 }

@@ -1,8 +1,18 @@
 /*
    Import partials below
 */
-@import './normalize';
-@import './helpers/base';
-@import './helpers/variables';
-@import './components/require/require';
+@import 'normalize';
+@import 'helpers/base';
+@import 'helpers/variables';
+@import 'helpers/fonts';
+@import 'blocks/container';
+@import 'blocks/require';
+@import 'components/title';
+@import 'components/blue';
+@import 'components/white';
+@import 'components/paragraph';
+@import 'components/paragraph-wrapper';
+@import 'blocks/video-section';
+@import 'components/video';
+@import 'components/video-wrapper';
 

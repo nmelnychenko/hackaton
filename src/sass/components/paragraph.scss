@@ -1,0 +1,26 @@
+.paragraph {
+  font-size: 14px;
+  font-family: Acrom, sans-serif;
+  color: $additional2-text-color;
+  font-weight: bold;
+  line-height: 1.5;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: -16px;
+    background-color: $main-color;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 62px;
+  }
+
+  @media (min-width: 768px) {
+    flex-basis: calc(50% - 98px);
+    margin-left: 60px;
+  }
+}

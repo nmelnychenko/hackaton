@@ -1,0 +1,11 @@
+.require {
+  width: 100%;
+  //padding: 75px 48px 75px 62px;
+  padding: 75px 0;
+  width: 100%;
+  background: radial-gradient($topic-text-color, $mask);
+
+  @media (min-width: 768px) {
+    padding: 84px 30px 90px 30px;
+  }
+}
