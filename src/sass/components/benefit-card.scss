@@ -1,0 +1,47 @@
+.benefits-card {
+  padding-left: 32px;
+  padding-top: 40px;
+  text-align: left;
+  position: relative;
+  width: 230px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    width: 30%;
+    margin: 0;
+  }
+  @media (min-width: 768px) {
+    width: 26%;
+  }
+
+  &__topic {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Acrom', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: $topic-text-color;
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  &__description {
+    font-size: 14px;
+    color: $additional1-text-color;
+    font-family: 'Acrom', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.break {
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  @media (min-width: 1000px) {
+    display: none;
+  }
+
+}

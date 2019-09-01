@@ -1,0 +1,13 @@
+.cards {
+  &__list {
+    padding: 0;
+    list-style: none;
+    counter-reset: section;
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0;
+    }
+  }
+}

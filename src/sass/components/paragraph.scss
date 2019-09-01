@@ -1,0 +1,32 @@
+.paragraph {
+  font-size: 14px;
+  font-family: Acrom, sans-serif;
+  color: $additional2-text-color;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 62px;
+  }
+
+  @media (min-width: 768px) {
+    flex-basis: calc(50% - 30px);
+    &:nth-child(2n+2) {
+      margin-left: 60px;
+    }
+    &:not(:nth-last-child(-n+2)) {
+      margin-bottom: 117px;
+    }
+    &:nth-last-child(2) {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    flex-basis: calc(50% - 44px);
+    &:nth-child(2n+2) {
+      margin-left: 88px;
+    }
+  }
+}

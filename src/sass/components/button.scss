@@ -1,0 +1,26 @@
+.button {
+  --h: 50px;
+  display: block;
+  height: var(--h);
+  line-height: var(--h);
+  width: 264px;
+  margin: 36px auto 70px;
+  text-transform: uppercase;
+  background-color: $button-color;
+  color: $main-white;
+  border: none;
+  font-size: 12px;
+  font-family: Acrom, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 12px 12px 70px 5px $button-color;
+  transition: background-color 200ms linear, box-shadow 200ms linear;
+  &:hover {
+    background-color: $mask;
+    box-shadow: 12px 12px 70px 5px $mask;
+  }
+  @media (min-width: 768px) {
+
+  }
+
+}

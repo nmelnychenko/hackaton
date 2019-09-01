@@ -1,4 +1,41 @@
 /*
    Import partials below
 */
-@import './normalize';
+
+@import 'normalize';
+@import 'helpers/base';
+@import 'helpers/variables';
+@import 'helpers/fonts';
+@import 'blocks/container';
+@import 'blocks/require';
+@import 'components/require-content';
+@import 'components/title';
+@import 'components/blue';
+@import 'components/white';
+@import 'components/paragraph';
+@import 'components/orange-sqaure';
+@import 'components/paragraph-wrapper';
+@import 'blocks/video-section';
+@import 'components/video';
+@import 'components/video-wrapper';
+
+@import './components/button';
+@import 'components/cards';
+@import 'components/card';
+@import 'components/black-section';
+@import 'blocks/footer';
+
+@import '../sass/blocks/invitation';
+@import './components/logo';
+@import './blocks/benefits';
+@import './components/benefit-card';
+@import './components/topic';
+@import './components/counter';
+
+@import 'blocks/description';
+@import './components/container.scss';
+@import './components/site_logo.scss';
+@import './components/text_company.scss';
+@import './components/wrapper.scss';
+@import './components/media.scss';
+

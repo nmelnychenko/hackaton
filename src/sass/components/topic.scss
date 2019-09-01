@@ -1,0 +1,43 @@
+.topic {
+    color: $main-white;
+
+&__welcome {
+    margin: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 44px;
+    @media (min-width: 768px) {
+        font-size: 36px;
+            }
+}
+
+&__main {
+    margin: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 24px;
+    padding-left: 66px;
+    padding-right: 66px;
+
+    @media (min-width: 768px) {
+        font-size: 46px;
+            }
+}
+
+&__guide {
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 24px;
+    padding-bottom: 166px;
+    padding-left: 44px;
+    padding-right: 44px;
+
+    @media (min-width: 768px) {
+        padding-bottom: 334px;
+            }
+        @media (min-width: 1200px) {
+                padding-bottom: 352px;
+        }
+}
+}

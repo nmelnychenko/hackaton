@@ -1,0 +1,33 @@
+.container {
+  min-width: 320px;
+  margin: 0 10px;
+  &--ps40 {
+    padding: 0 40px;
+  }
+  @media (min-width: 768px) {
+    min-width: 709px;
+    margin: 0 30px;
+    &--md-ps60 {
+      padding: 0 60px;
+    }
+    &--md-p0 {
+      padding: 0;
+    }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    &--md-ps30 {
+      padding: 0 30px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    margin: 0 auto;
+    padding: 0 67px;
+    max-width: 1070px;
+    &--xl-ps180 {
+      padding: 0 180px;
+    }
+  }
+}

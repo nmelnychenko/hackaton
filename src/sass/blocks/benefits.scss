@@ -1,0 +1,41 @@
+.benefits {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 33px;
+
+  @media (min-width: 768px) {
+    padding-top: 60px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 100px;
+  }
+}
+
+.container-inner {
+
+  @media (min-width: 768px) {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+  }
+
+}
+
+.first-phrase {
+  font-family: 'Acrom', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: $main-black;
+}
+
+.second-phrase {
+  font-family: 'Acrom', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: $topic-text-color;
+}
+
