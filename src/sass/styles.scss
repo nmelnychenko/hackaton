@@ -1,6 +1,7 @@
 /*
    Import partials below
 */
+
 @import 'normalize';
 @import 'helpers/base';
 @import 'helpers/variables';
@@ -30,3 +31,11 @@
 @import './components/benefit-card';
 @import './components/topic';
 @import './components/counter';
+
+@import 'blocks/description';
+@import './components/container.scss';
+@import './components/site_logo.scss';
+@import './components/text_company.scss';
+@import './components/wrapper.scss';
+@import './components/media.scss';
+
