@@ -1,0 +1,57 @@
+.card {
+    padding-left: 32px;
+    padding-top: 40px;
+    text-align: left;
+    position: relative;
+
+    @media (min-width: 768px) {
+        width: 30%;
+            }
+    @media (min-width: 768px) {
+        width: 26%;
+                    }
+
+&::after {
+    position: absolute;
+    counter-increment: heading;
+    content: "0" counter(heading) "_";
+    font-size: 65px;
+    font-family: sans-serif;
+    top: 40px;
+    left: -62px;
+    transform: rotate(-90deg);
+    font-weight: bold;
+    color: $numbers;
+}
+
+&__topic {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Acrom', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: $topic-text-color;
+    @media (min-width: 768px) {
+        font-size: 24px;
+}
+}
+
+&__description {
+    font-size: 14px;
+    color: $additional1-text-color;
+    font-family: 'Acrom',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+}
+
+.break {
+    @media (max-width: 768px)  {
+        display: none;
+}
+
+@media  (min-width:1000px) {
+    display: none;
+}
+
+}
