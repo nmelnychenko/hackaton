@@ -1,8 +1,24 @@
 .container {
   min-width: 320px;
-  padding: 0 10px;
+  margin: 0 10px;
+  &--ps40 {
+    padding: 0 40px;
+  }
   @media (min-width: 768px) {
     min-width: 709px;
-    padding: 0 30px;
+    margin: 0 30px;
+    &--md-ps60 {
+      padding: 0 60px;
+    }
+    &--md-p0 {
+      padding: 0;
+    }
+  }
+  @media (min-width: 1200px) {
+    margin: 0 65px;
+    padding: 0 67px;
+    &-xl-ps230 {
+      padding: 0 230px;
+    }
   }
 }

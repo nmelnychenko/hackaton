@@ -7,15 +7,18 @@
 @import 'helpers/fonts';
 @import 'blocks/container';
 @import 'blocks/require';
+@import 'components/require-content';
 @import 'components/title';
 @import 'components/blue';
 @import 'components/white';
 @import 'components/paragraph';
+@import 'components/orange-sqaure';
 @import 'components/paragraph-wrapper';
 @import 'blocks/video-section';
 @import 'components/video';
 @import 'components/video-wrapper';
 
 @import './components/button';
-@import './components/awards';
-@import './components/footer';
+@import 'components/cards';
+@import 'components/card';
+@import 'blocks/footer';
