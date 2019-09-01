@@ -15,10 +15,11 @@
     }
   }
   @media (min-width: 1200px) {
-    margin: 0 65px;
+    margin: 0 auto;
     padding: 0 67px;
-    &-xl-ps230 {
-      padding: 0 230px;
+    max-width: 1070px;
+    &--xl-ps180 {
+      padding: 0 180px;
     }
   }
 }

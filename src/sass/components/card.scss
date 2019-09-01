@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  flex-basis: 230px;
+  width: 230px;
   height: 468px;
   margin: 0 auto 65px;
   box-shadow: 1px 1px 35px 5px #f1f1f1;
@@ -10,19 +10,6 @@
   }
   &:last-child {
     margin-bottom: 75px;
-  }
-  &::before {
-    counter-increment: section;
-    content: "0"counter(section);
-    color: #f6f6f6;
-    font-size: 70px;
-    position: absolute;
-    z-index: -1;
-    top: -10%;
-    left: 10%;
-    font-family: Futura, sans-serif;
-    font-weight: 500;
-    line-height: 84px;
   }
 
   &__item {

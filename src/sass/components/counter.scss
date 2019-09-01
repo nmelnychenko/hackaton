@@ -1,0 +1,25 @@
+.counter-wrapper {
+  counter-reset: section;
+}
+
+.counter {
+  position: relative;
+  &::before {
+    counter-increment: section;
+    content: "0" counter(section) "_";
+    color: #f6f6f6;
+    font-size: 70px;
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+    left: 10%;
+    font-family: Futura, sans-serif;
+    font-weight: 500;
+    line-height: 84px;
+  }
+  &--rotated::before {
+    top: 40px;
+    left: -80px;
+    transform: rotate(-90deg);
+  }
+}
